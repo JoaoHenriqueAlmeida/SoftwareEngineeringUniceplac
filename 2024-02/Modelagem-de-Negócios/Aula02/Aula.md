@@ -28,3 +28,6 @@ A **Documentação de um modelo** se dá pelo diagrama de um modelo juntamente c
 **Fluxograma** é o gráfico que representa a sequencia de um trabalho de forma analítica, caracterizando operações e os agentes executores, assim como o fluxo de informações.
 
 ## Elementos básicos de um fluxograma:
+
+![alt text](../assets/Fluxogramas01.png)
+![alt text](../assets/Flugramas02.png)

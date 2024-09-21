@@ -24,6 +24,10 @@ Alguns tipos de canvas:
 
 ## Proposta de Valor
 
+Proposta de valor está relacionada com **ganho dos clientes** com o que se oferece.
+
 ## Valor
 
 Canvas proposta de valor:
+
+![](../assets/PropostaDeValor.png)
