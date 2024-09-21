@@ -57,3 +57,60 @@ temporários e reutilizados por outros dispositivos quando
 não estão mais em uso.
 
 ### IPv6
+
+- O IPv6 é composto por 128 bits e usa hexadecimal para sua
+  representação, separado por dois pontos.
+- Exemplo: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+- Maior espaço de endereçamento (permite um número
+  enorme de dispositivos).
+- Melhoria na eficiência de roteamento.
+- Suporte integrado para segurança (IPSec).
+
+### Máscaras de Sub-rede
+
+![](../assets/SubnetMasks.png)
+![](../assets/SubnetMasks2.png)
+
+- A máscara de sub-rede é usada para dividir um endereço IP em
+  duas partes: o endereço da rede e o endereço do host. Isso
+  facilita a criação de sub-redes, otimizando o uso de endereços IP
+  e melhorando a organização e a segurança da rede.
+- A máscara é composta por 32 bits, assim como o endereço IP. Ela
+  é representada com uma sequência de "1s" para a parte da rede
+  e "0s" para a parte do host.
+- CIDR (Classless Inter-Domain Routing)
+  - O CIDR é uma notação mais eficiente que define diretamente a
+    quantidade de bits utilizados para a rede. Exemplo: 192.168.1.0/24,
+    onde "/24" indica que os primeiros 24 bits são para a rede, enquanto os
+    restantes 8 bits são para os hosts.
+
+### MAC Address
+
+- O Endereço MAC (Media Access Control) é um identificador
+  exclusivo atribuído à interface de rede de um dispositivo. Ele é
+  utilizado para a comunicação no nível de enlace de dados
+  (Camada 2 do modelo OSI).
+- Formato: O endereço MAC tem 48 bits e é representado em
+  hexadecimal, separado por dois pontos ou hífens. Exemplo:
+  00:1A:2B:3C:4D:5E.
+- Função: Ao contrário do endereço IP, que pode mudar
+  dependendo da rede, o endereço MAC é fixo e específico para
+  cada dispositivo.
+
+### DNS (Domain Name System)
+
+- O Que é DNS:
+
+  - Sistema distribuído que traduz nomes de domínio em endereços IP.
+  - Componentes principais: Servidores DNS raiz, TLD, e Autoritativos.
+
+- Funcionamento de uma Consulta DNS:
+  - Passo a passo da resolução de um nome de domínio.
+  - Diferença entre consultas recursivas e iterativas.
+- Tipos de Registros DNS:
+  - A (Address): Mapeia um nome de domínio para um endereço IPv4.
+  - AAAA: Mapeia para um endereço IPv6.
+  - CNAME (Canonical Name): Alias de um nome de domínio.
+  - MX (Mail Exchange): Especifica servidores de e-mail para o domínio.
+- Segurança no DNS:
+  - Problemas como DNS Spoofing e a solução com DNSSEC (DNS Security Extensions).
